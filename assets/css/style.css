@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.signup-form{
+    margin: 70px 0;
+}
+
+.signup-form .container{
+    width: 430px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 7px;
+    /* background-color: grey; */
+    box-shadow: 1px 1px 16px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.signup-form .container .signup-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-top .signup-text h2{
+    color: #1c1e21;
+    font-family: sans-serif;
+    font-size: 33px;
+    line-height: 38px;
+
+}
+
+.signup-top .signup-text span{
+    color: #606770;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 24px; 
+}
+
+.signup-top .close-form{
+    font-size: 25px;
+    color: #606770;
+}
+
+
+form .name{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form .name input{
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0,0.3);
+        
+}
+
+.name .second{
+    margin-left: 15px;
+}
+
+.mobile-number input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.password input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.signup-form form label.birth-label{
+    margin: 10px 0px 5px 0px;
+    display: inline-block;
+}
+
+.date-of-birth{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-of-birth select{
+    width: 32%;
+    /* margin: 0px auto; */
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.signup-form form .gender{
+    display: flex;
+    justify-content: space-between;        
+}
+
+.signup-form form label.gender-label{
+    margin: 10px 0px 5px 0px;
+    display: inline-block;
+}
+
+.gender div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gender .female{
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 32%;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: sans-serif;
+}
+
+.gender .male{
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 32%;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: sans-serif;
+}
+
+.gender .custom{
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 32%;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: sans-serif;
+}
+
+.signup-form form .form-policy p{
+    margin-top: 10px;
+    color: #777;
+    font-size: 11px;
+}
+
+.form-policy a{
+    color: #385898;
+
+}
+
+.form-policy a:hover{
+    color: #385898;
+    text-decoration: underline;
+
+}
+
+.signup-btn{
+    text-align: center;
+    margin: 30px 0 15px 0;
+}
+
+.signup-btn a{
+    /* border: 1px solid rgba(0,0,0,0.3); */
+    padding: 8px 65px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #00a400;
+    border-radius: 6px;
+}
+
+.signup-btn a:hover{
+    background-color: #79bc64;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
